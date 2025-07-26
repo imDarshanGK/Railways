@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Train, Shield, Users, BarChart3, MapPin, AlertTriangle, Clock, Zap, Search, CreditCard } from "lucide-react"
+import { Train, Shield, Users, BarChart3, MapPin, AlertTriangle, Clock, Search, CreditCard } from "lucide-react"
 import Link from "next/link"
 
 export default function HomePage() {
@@ -12,10 +12,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <Train className="h-8 w-8 text-blue-600 mr-3" />
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">Karnataka Railway Network</h1>
-                <p className="text-sm text-gray-600">Live Train Tracking & Booking System</p>
-              </div>
+              <h1 className="text-2xl font-bold text-gray-900">Karnataka Railway Network</h1>
             </div>
             <div className="flex space-x-4">
               <Link href="/user">
@@ -41,10 +38,9 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Hero Section */}
+       {/* Hero Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Karnataka Railway Network</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Complete railway management system with live train tracking, PNR status, seat booking, 
             and real-time updates for all Karnataka trains including Bengaluru, Mysuru, Hubballi routes.
@@ -72,6 +68,7 @@ export default function HomePage() {
         </div>
       </section>
 
+ 
       {/* Quick Search Section */}
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -226,6 +223,7 @@ export default function HomePage() {
         </div>
       </section>
 
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -268,7 +266,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Karnataka Railway Network. All rights reserved. | Powered by Indian Railways</p>
+            <p>&copy; 2025 Karnataka Railway Network. All rights reserved. | Powered by Indian Railways</p>
           </div>
         </div>
       </footer>
